@@ -9,8 +9,8 @@
     <?php
  foreach( $content as $data )
  {
-   $title = $data->getElementsByTagName("name")->item(0)->nodeValue;
-   $link = $data->getElementsByTagName("coat")->item(0)->nodeValue;
+   $name = $data->getElementsByTagName("name")->horses(0)->nodeValue;
+   $coat = $data->getElementsByTagName("coat")->horses(0)->nodeValue;
   
    echo "<li>$name
             <ul>
