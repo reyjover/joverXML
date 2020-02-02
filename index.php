@@ -5,6 +5,7 @@
  $content = $domOBJ->getElementsByTagName("horses");
  
  ?>
+<h2> Red Dead Redemption 2 | Horses </h2>
  <ul>
     <?php
  foreach( $content as $data )
