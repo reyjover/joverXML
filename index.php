@@ -17,9 +17,9 @@
   
    echo "<li>$name
             <ul>
-                <li>$coat</li>
-                <li>$category</li>
-                 <li>$handling</li>
+                <li><h4>Coat:</h4> $coat</li>
+                <li><h4>Category:</h4> $category</li>
+                 <li><h4>Handling </h4>$handling</li>
             </ul>
         </li>";
  }
