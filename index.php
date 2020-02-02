@@ -15,7 +15,7 @@
    $category = $data->getElementsByTagName("category")->item(0)->nodeValue;
    $handling = $data->getElementsByTagName("handling")->item(0)->nodeValue;
   
-   echo "<li><b> Horse </b> $name
+   echo "<li><b>Horse:</b> $name
             <ul>
                 <li> <b>Coat:</b> $coat</li>
                 <li> <b>Category:</b> $category</li>
